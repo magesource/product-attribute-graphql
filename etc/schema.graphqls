@@ -1,0 +1,4 @@
+interface ProductInterface @typeResolver(class: "Magento\\CatalogGraphQl\\Model\\ProductInterfaceTypeResolverComposite") @doc(description:"Is Type") {
+    is_type: String @doc(description: "Seller Id") @resolver(class: "Magesource\\ProductAttributeGraphQl\\Model\\Resolver\\Product\\GetisType")
+}
+

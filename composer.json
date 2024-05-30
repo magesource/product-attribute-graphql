@@ -1,0 +1,39 @@
+{
+    "name": "magesource/product-attribute-graphql",
+    "description": "Magesource Product Attribute in Graph Ql for Magento 2.",
+    "type": "magento2-module",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0"
+    ],
+    "authors": [
+      {
+        "name": "Magesource",
+        "role": "Technical Support"
+      }
+    ],
+    "repositories": [
+      {
+          "type": "package",
+          "package": {
+              "name": "magesource/product-attribute-graphql",
+              "version": "1.0.0",
+              "source": {
+                  "url": "https://github.com/magesource/product-attribute-graphql.git",
+                  "type": "git",
+                  "reference": "main"
+              }
+          }
+      }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magesource\\ProductAttributeGraphQl\\": ""
+        }
+    }
+  }

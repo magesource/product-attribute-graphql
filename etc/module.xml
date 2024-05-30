@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * @author Magesource
+ * @copyright Magesource. All rights reserved.
+ * @package Magesource Product Attribute in Graph Ql for Magento 2.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+	<module name="Magesource_ProductAttributeGraphQl" setup_version="1.0.0">
+		<sequence>
+            <module name="Magento_Catalog" />
+			<module name="Magento_GraphQl"/>
+        </sequence>
+	</module>
+</config>
